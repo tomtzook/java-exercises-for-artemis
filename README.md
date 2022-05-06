@@ -25,4 +25,11 @@ For some explanation of the cipher, read [here](https://www.dcode.fr/caesar-ciph
 
 Select your own cipher (i.e. shift).
 
+#### Inventory
+
+Create a shop _inventory_ program. This is an OOP project, and you are expected to create classes. The program should:
+- keep track of products in the shop
+- allow users to add products
+- allow users to remove products
+- allow users query a list of products
 
