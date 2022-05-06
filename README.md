@@ -17,4 +17,12 @@ Write a program which reverses the order of characters in a `String`. Implement 
 For example: `"This is the greatest plan"` reversed is `"nalp tsetaerg eht si sihT"`.
 
 #### Ceaser Cipher
-Write a program capable of encrypting and decrypting `String`s using the _Ceaser Cipher_.
+Write a program capable of encrypting and decrypting `String`s using the [_Ceaser Cipher_](https://en.wikipedia.org/wiki/Caesar_cipher). Implement the cipher in 2 programs - one for encrypting and one for decrypting. Each program will be made up of:
+- a method for encrypting or decrypting a `String`.
+- a `main` which reads a `String` from the user and uses said method to encrypt or decrypt the `String` and prints the result.
+
+For some explanation of the cipher, read [here](https://www.dcode.fr/caesar-cipher). But basically the idea is that each character is replaced by another character. That character is selected by the cipher, which is basically a _shift_ of the alphabet. So if `shift=2`, we would get that `a = c`. 
+
+Select your own cipher (i.e. shift).
+
+
