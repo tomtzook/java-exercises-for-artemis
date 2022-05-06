@@ -1,5 +1,23 @@
 # Java Exercises For Artemis
 
+## Recap
+
+#### Read
+- [OOP Concepts](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
+  - no need to read about "Pillars of OOP" 
+- [Classes](https://www.geeksforgeeks.org/classes-objects-java/)
+- [Methods](https://www.geeksforgeeks.org/methods-in-java/)
+- [Strings](https://www.geeksforgeeks.org/strings-in-java/)
+- [Lists](https://www.geeksforgeeks.org/arraylist-in-java/)
+  - will be needed for the last exercise 
+
+#### Watch
+- [thenewboston](https://www.youtube.com/playlist?list=PLFE2CE09D83EE3E28)
+  -  videos 14, 15, 16, 38, 39, 40, 46, 47
+
+
+## Exercises
+
 #### Binary to Decimal Converter
 Write a program to convert a binary number (contained in a `String`, such that each character in the string is either `0` or `1`) to a decimal (as an `int`). Implement the program in 2 parts:
 - a method which receives a `String` binary and returns an `int` decimal number
