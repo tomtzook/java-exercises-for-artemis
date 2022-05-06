@@ -29,7 +29,48 @@ Select your own cipher (i.e. shift).
 
 Create a shop _inventory_ program. This is an OOP project, and you are expected to create classes. The program should:
 - keep track of products in the shop
-- allow users to add products
+- allow users to add products 
+  - add quantity to the product. If the product already exists in the shop, add quantity to the existing product;
+  if does not exist, create a new product in the shop.
 - allow users to remove products
+  - remove some quantity from the product. If the quantity is 0, the product is removed from the shop. 
 - allow users query a list of products
+  - print information about all the products in the shop 
+ 
+You should divide your program to the following classes:
+- `Product`: holding information about a single product.
+  - Name of the product
+  - Amount of the product 
+  - Getters and setters for name and amount
+- `Shop`: holding information about the entire shop.
+  - List of the products in the shop 
+  - Getters and setters for the list
+- `Main`: the main program.
+  - all the things regarding user interaction  
 
+Interaction with the program will be done via a menu. Options will be displayed to the user, allowing him to select what to do with the program. Example:
+
+```
+1. View products
+2. Add Product
+3. Remove Product
+4. Exit
+Select: 
+```
+
+The user will then enter a number indicating the action to perform. The program will then move to a sub-menu depending on the action.
+
+```
+1. View products
+2. Add Product
+3. Remove Product
+4. Exit
+Select: 2
+
+Enter Product Name: Whip
+Enter Product Quantity: 5
+```
+
+Upon finishing work with the sub-menu, the program will return to the main menu.
+
+You do have some freedom to implement things a bit differently, but I do expect at least the minimum described here.
